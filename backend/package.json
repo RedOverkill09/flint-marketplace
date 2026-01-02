@@ -1,0 +1,11 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for the flint-marketplace project",
+  "scripts": {
+    "start" : "node src/server.js",
+    "dev" : "nodemon src/server.js"   
+  },
+  "author": "Om prakash Adhikari",
+  "license": "ISC"
+}
