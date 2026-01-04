@@ -43,6 +43,36 @@ const productSchema = new mongoose.Schema(
       enum: ["DRAFT", "ACTIVE", "ARCHIVED"],
       default: "DRAFT",
     },
+
+    optionGroups: [
+      {
+        name: {
+          type: String,
+          required: true,
+          trim: true,
+        },
+        required: {
+          type: Boolean,
+          default: true,
+        },
+        options: [
+          {
+            label: {
+              type: String,
+              required: true,
+              trim: true,
+            },
+            priceDelta: {
+              type: Number,
+              required: true,
+              min: 0,
+              default: 0,
+            },
+            imageOverrides: [String],
+          },
+        ],
+      },
+    ],
   },
   { timestamps: true }
 );
