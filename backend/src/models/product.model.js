@@ -73,6 +73,12 @@ const productSchema = new mongoose.Schema(
         ],
       },
     ],
+
+    productGroup: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "ProductGroup",
+      default: null,
+    }
   },
   { timestamps: true }
 );
