@@ -39,14 +39,10 @@ export const updateProduct = asyncHandler(async (req, res) => {
         throw new AppError("Product ID is required", 400);
     }
 
-    const product = await Product.findById(productId);
+    const product = req.resource;
     
     if(!product){
         throw new AppError("Product not found.", 404);
-    }
-
-    if(product.seller.toString() !== req.user.id.toString()){
-        throw new AppError("Forbidden: You do not own this product", 403);
     }
 
     //Category immutable after activation

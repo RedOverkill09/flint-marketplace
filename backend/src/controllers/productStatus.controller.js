@@ -11,7 +11,7 @@ export const updateProductStatus = asyncHandler(async (req, res) => {
         throw new AppError("Product ID is required", 400);
     }
 
-    const product = await Product.findById(productId);
+    const product = req.resource;
 
     if(!product){
         throw new AppError("Product not found.", 404);
