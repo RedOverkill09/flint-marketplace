@@ -15,6 +15,9 @@ app.use("/api/seller/products", productStatusRoute);
 import productGroupRoutes from './routes/productGroup.routes.js';
 app.use("/api/seller/product-groups", productGroupRoutes);
 
+import buyerProductRoutes from './routes/buyerProduct.routes.js';
+app.use("/api/products", buyerProductRoutes);
+
 import errorHandler from './middlewares/errorHandler.js';
 app.use(errorHandler);
 
