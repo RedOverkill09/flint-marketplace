@@ -4,10 +4,14 @@ import Product from '../models/product.model.js';
 import AppError from '../utils/AppError.js';
 
 export const listProducts = asyncHandler(async (req, res) => {
-    console.log("Listing products for buyer");
-    let {page = 1, limit = 10, category} = req.query;
+    let {page = 1, limit = 10, category, sortType = "newest"} = req.query;
     page = Number(page);
     limit = Number(limit);
+
+    let sortOption = {};
+    if(sortType === "newest") sortOption = {createdAt: -1};
+    else if(sortType === "price_asc") sortOption = {basePrice: 1};
+    else if(sortType === "price_desc") sortOption = {basePrice: -1};
     
     const filter = {status: 'ACTIVE'};
 
@@ -22,6 +26,7 @@ export const listProducts = asyncHandler(async (req, res) => {
     const totalProducts = await Product.countDocuments(filter);
 
     const products = await Product.find(filter)
+        .sort(sortOption)
         .skip((page - 1) * limit)
         .limit(limit)
         .select("title basePrice images category");
